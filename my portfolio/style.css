@@ -254,6 +254,18 @@ ul li p{
     padding-left: 80px;
  }
 
- 
+ @media (max-width: 768px) {
+  .col-6, .col-4, .col-3 {
+    width: 100% !important;
+    display: block;
+  }
 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+ 
  
